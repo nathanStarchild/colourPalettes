@@ -1,10 +1,11 @@
 # colourPalettes
-Colour Palettes for Processing
-drop colourPalettes.pde in your sketch's directory
+Colour Palettes for Processing.<br>
+Drop colourPalettes.pde in your sketch's directory.
 
-The palettes each have 256 colours, choose the nth colour and set the alpha with getColour(n, alpha)
+The palettes each have 256 colours, choose the nth colour and set the alpha with ```getColour(n, alpha)```.
 
 example:
+```processing
 Palette myPalette;
 
 void setup() {
@@ -29,4 +30,4 @@ void draw() {
 void mousePressed() {
     myPalette.nextPalette();
 }
-
+```
